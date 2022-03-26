@@ -1,9 +1,10 @@
 import React from 'react';
+import { Button } from 'antd'
 
 export default function App() {
 	return (
-		<div>
-			<h2>App Component</h2>
+		<div className='center-text'>
+			<Button type='primary'>Primary Button</Button>
 		</div>
 	);
 }
